@@ -1,0 +1,16 @@
+/*header*/
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+  padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
