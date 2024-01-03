@@ -11,6 +11,7 @@
     <!--Header-->
     <header>
          <div class="header1">
+           <div class="container">
               <div class="logo">
                  <h1>Softcom</h1>
               </div>
@@ -21,16 +22,46 @@
                 <a href="#">About</a>
                 <a href="#">Services</a>
                 <a href="#">Contact</a>
-                <a href="#">News</a>
               </nav>
 
               <!--open btn-->
-              <h1 id="open">Menu</h1>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eaque, eius provident harum ad velit atque architecto ex. Sed, autem.</P>
+              <h2 id="open">Menu</h2>
+           </div>
          </div>
-         <div class="header2">
 
+         <div class="header2">
+            <div class="contain">
+               <h1 class="welcome">Welcome to Softcom Academic <br>and services</h1>
+               <p class="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut officia suscipit dolorem corrupti cupiditate. Mollitia fugiat cumque impedit sit magni sequi est rerum, explicabo perspiciatis nesciunt quo! Totam nam atque nulla. Laboriosam fugit obcaecati ipsum.</p><br><br>
+               <button class="btn1">sign in</button>
+               <button class="btn2">sign up</button>
+            </div>
          </div>
     </header>
+
+    <!--section-->
+    <section>
+       <div class="sectiona">
+          <div class="sectiona-1">
+             
+          </div>
+       </div>
+    </section>
+
+    <!--java-script-->
+    <script>
+      let nav = document.querySelector('nav');
+      let open = document.querySelector('#open');
+      let close = document.querySelector('#close')
+
+      open.addEventListener('click',function(){
+       nav.style.left='1px';
+      })
+
+      close.addEventListener('click',function(){
+       nav.style.left='-720px';
+      })
+   </script>
+
 </body>
 </html>
